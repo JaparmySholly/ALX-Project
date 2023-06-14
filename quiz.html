@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+<section class="head">
+
+    <!-- <section class="logo">
+        <img src="img.png" alt="logo">
+    </section> -->
+
+    <section class="main">
+
+        <div class="container">
+            <div class="col">
+                <h3 id="questionBox">
+                    1) Question goes in here.
+                </h3>
+            </div>
+            <div class="col box">
+                <input type="radio" name="option" id="first" value="a" required>
+                <label for="first">Option 1</label>
+            </div>
+            <div class="col box">
+                <input type="radio" name="option" id="second" value="b" required>
+                <label for="second">Option 2</label>
+            </div>
+            <div class="col box">
+                <input type="radio" name="option" id="third" value="c" required>
+                <label for="third">Option 3</label>
+            </div>
+            <div class="col box">
+                <input type="radio" name="option" id="fourth" value="d" required>
+                <label for="fourth">Option 4</label>
+            </div>
+            <div id="onclick">
+                <button onclick="prevQuestion()" id="Prev">Prev</button>
+                <button onclick="nextQuestion()" id="Next">Next</button>
+            </div>   
+            <br>
+            <button id="submit">Submit</button>
+
+        </div>
+    </section>
+    <h3 class="footer">&copy; JaparmySholly</h3>
+    <script src="script.js"></script>
+</section>
+</body>
+</html>
