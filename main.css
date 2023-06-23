@@ -22,13 +22,14 @@ h1 {
     padding: 40px;
     text-align: center;
     font-size: x-large;
-    color: purple;
+    color: rgb(47, 8, 73);
     
 }
 
 .logo {
     display: inline-flex;
 }
+
 
 .main{
     width: 100%;
